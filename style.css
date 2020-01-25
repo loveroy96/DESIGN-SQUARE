@@ -1,0 +1,56 @@
+body {margin: 0;}
+
+	.container{
+		display: grid;
+	  	grid-template-columns: repeat(15, 1fr);
+		position : static;
+		text-shadow: 0px 0px 10px rgba(0,0,0,.30);}
+
+	.item{
+    	color: white;
+    	text-decoration: none;
+    	display : inline;
+    	font-size: 15px;
+    	font-weight: 100;
+    	text-align: center;
+    	margin : 0px;
+  		padding:  16px;
+  		text-decoration: none;}
+
+	.textshadow {
+		text-shadow: 0px 0px 10px rgba(0,0,0,.70);}
+
+
+	.container a {
+	  	color: white;
+	  	padding:  0px;
+	  	text-decoration: none;}	
+
+
+
+	.tiledBackground {
+
+			 background-image: url("https://docs.google.com/uc?export=download&id=1yiDf_p4B6F72mYj3GLrotej2jGFrbQFO" ); 
+			 background-image: url('mono.jpg' );
+			background-size:100%; background-repeat:no-repeat;}
+
+
+	.titlename {
+			display: block;     color:white;  letter-spacing: 5px; 
+			padding-top:10px; padding-left:100px; margin:0px; text-align:left;}
+
+
+	.titletext {
+			display: block;  color:white;  letter-spacing: 1px; padding-left:100px; 
+			margin-top:10px; text-align: left; line-height:150%; }
+
+	.mainbutton {
+		margin-left:100px;
+	    color: gray;
+		background-color: white;
+		border: none;
+		text-decoration: none;
+		padding : 5px 10px;}
+		
+
+
